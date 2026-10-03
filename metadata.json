@@ -1,0 +1,6 @@
+{
+  "name": "Liquid Glass",
+  "description": "Liquid Glass icon pack featuring frosted translucent icons, dynamic glass customizer, launcher apply support, and glass wallpapers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

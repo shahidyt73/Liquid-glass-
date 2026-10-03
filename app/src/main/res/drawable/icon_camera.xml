@@ -1,0 +1,96 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <path
+        android:pathData="M 32,8 L 64,8 C 82,8 88,14 88,32 L 88,64 C 88,82 82,88 64,88 L 32,88 C 14,88 8,82 8,64 L 8,32 C 8,14 14,8 32,8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="12"
+                android:startY="8"
+                android:endX="84"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#775B21B6" />
+                <item android:offset="0.5" android:color="#443730A3" />
+                <item android:offset="1.0" android:color="#880F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M 32,9 C 15,9 9,15 9,32 L 9,46 C 24,52 72,52 87,46 L 87,32 C 87,15 81,9 64,9 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="9"
+                android:endX="48"
+                android:endY="48"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#55FFFFFF" />
+                <item android:offset="0.6" android:color="#1AFFFFFF" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:strokeWidth="1.8"
+        android:pathData="M 32,8.9 L 64,8.9 C 81.5,8.9 87.1,14.5 87.1,32 L 87.1,64 C 87.1,81.5 81.5,87.1 64,87.1 L 32,87.1 C 14.5,87.1 8.9,81.5 8.9,64 L 8.9,32 C 8.9,14.5 14.5,8.9 32,8.9 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="10"
+                android:startY="10"
+                android:endX="86"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EEF472B6" />
+                <item android:offset="0.5" android:color="#66A855F7" />
+                <item android:offset="1.0" android:color="#44818CF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Camera Body -->
+    <path
+        android:pathData="M 26,34 L 34,34 L 38,28 L 58,28 L 62,34 L 70,34 C 74.4,34 78,37.6 78,42 L 78,66 C 78,70.4 74.4,74 70,74 L 26,74 C 21.6,74 18,70.4 18,66 L 18,42 C 18,37.6 21.6,34 26,34 Z"
+        android:strokeWidth="3.2"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="20"
+                android:startY="30"
+                android:endX="76"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF472B6" />
+                <item android:offset="1.0" android:color="#FFC084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Camera Lens Glass Circle -->
+    <path
+        android:pathData="M 48,43 C 54.1,43 59,47.9 59,54 C 59,60.1 54.1,65 48,65 C 41.9,65 37,60.1 37,54 C 37,47.9 41.9,43 48,43 Z"
+        android:strokeWidth="3.2">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="37"
+                android:startY="43"
+                android:endX="59"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE879F9" />
+                <item android:offset="1.0" android:color="#FF38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Lens Glint -->
+    <path
+        android:pathData="M 45,50 A 2,2 0 1,1 45,49.9 Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>

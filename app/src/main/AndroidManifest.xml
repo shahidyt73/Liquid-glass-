@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <queries>
+        <package android:name="com.teslacoilsw.launcher" /> <!-- Nova -->
+        <package android:name="ch.deletescape.lawnchair" /> <!-- Lawnchair -->
+        <package android:name="app.lawnchair" /> <!-- Lawnchair v2/v12 -->
+        <package android:name="bitpit.launcher" /> <!-- Niagara -->
+        <package android:name="ginlemon.flowerfree" /> <!-- Smart Launcher -->
+        <package android:name="ginlemon.flowerpro" />
+        <package android:name="com.actionlauncher.playstore" /> <!-- Action Launcher -->
+        <package android:name="com.microsoft.launcher" /> <!-- Microsoft Launcher -->
+        <package android:name="projekt.launcher" /> <!-- Hyperion -->
+        <package android:name="com.anddoes.launcher" /> <!-- Apex -->
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.HOME" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Standard Icon Pack Intent Filters -->
+            <intent-filter>
+                <action android:name="org.adw.launcher.THEMES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.novalauncher.THEME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.fede.launcher.THEME_ICONPACK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.dlto.atom.launcher.THEME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="app.lawnchair.ICONPACK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.anddoes.launcher.THEME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- Icon Pack Meta Data -->
+            <meta-data
+                android:name="org.adw.launcher.icons"
+                android:resource="@xml/appfilter" />
+            <meta-data
+                android:name="com.novalauncher.icons"
+                android:resource="@xml/appfilter" />
+            <meta-data
+                android:name="app.lawnchair.icons"
+                android:resource="@xml/appfilter" />
+            <meta-data
+                android:name="com.dlto.atom.launcher.theme"
+                android:resource="@xml/appfilter" />
+            <meta-data
+                android:name="com.fede.launcher.theme_iconpack"
+                android:resource="@xml/appfilter" />
+            <meta-data
+                android:name="com.anddoes.launcher.theme"
+                android:resource="@xml/appfilter" />
+        </activity>
+    </application>
+
+</manifest>

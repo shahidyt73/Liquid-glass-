@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<icons>
+    <category title="System">
+        <item drawable="icon_phone" />
+        <item drawable="icon_camera" />
+        <item drawable="icon_settings" />
+        <item drawable="icon_browser" />
+        <item drawable="icon_gallery" />
+        <item drawable="icon_files" />
+        <item drawable="icon_calendar" />
+        <item drawable="icon_clock" />
+        <item drawable="icon_calculator" />
+    </category>
+    <category title="Communication">
+        <item drawable="icon_phone" />
+        <item drawable="icon_messages" />
+        <item drawable="icon_mail" />
+    </category>
+    <category title="Media &amp; Tools">
+        <item drawable="icon_music" />
+        <item drawable="icon_maps" />
+        <item drawable="icon_weather" />
+        <item drawable="icon_notes" />
+        <item drawable="icon_store" />
+    </category>
+</icons>
